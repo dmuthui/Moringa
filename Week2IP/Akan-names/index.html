@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.css" type="text/css" media="all">
+  <link rel="icon" href="images/ghanaflag.png" type="img/jpg">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>David's Akan Age Calculator.</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+     <hr>
+      <script src="js/file.jss"></script> 
+   <h1>David's Akan Age calculator</h1>
+   <img src="images/ghanaflag.png" alt="Ghanian" title="The flag of Ghana">
+  </div>
+</div>
+   <fieldset>
+      <legend><strong>Description of what the Application does</strong></legend>
+      <p>&nbsp;&nbsp;This web application;<strong>David's Akan Age calculator,</strong> takes a user's birthday and calculates the day of the week someone was born and then depending on their gender outputs their Akan Name. 
+       Akan names are derived from Ghanian culture. 
+       Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+       &nbsp;&nbsp;&nbsp;For example, if a user is male and the result of the calculation is Sunday, then the application matches that with Kwasi since Kwasi corresponds to Sunday which has an index 0. 
+       Hence the output the user will see should be something like:“You were born on Monday and your Akan name is Kwasi”. 
+      </p>
+  <div class="container">
+    </fieldset> 
+            <br><strong>Below are the Ghanian's male and female names with their corresponding days of the week:</strong>      
+            <table>
+              <caption><strong>Akan Names as per Ghanian Culture.</strong></caption>
+               <tr>
+                <th>Days of Week</th>
+                <th>Male Name</th>
+                <th>Female Name</th>
+               </tr>
+               <tr>
+                <td>Sunday</td>
+                <td>Kwasi</td>
+                <td>Akosua</td>
+               </tr>
+               <tr>
+                <td>Monday</td>
+                <td>Kwadwo</td>
+                <td>Adwoa</td>
+               </tr>
+               <tr>
+                <td>Tuesday</td>
+                <td>Kwabeno</td>
+                <td>Abenaa</td>
+               </tr>
+               <tr>
+                <td>Wednesday</td>
+                <td>Kwaku</td>
+                <td>Akua</td>
+               </tr>
+               <tr>
+                <td>Thursday</td>
+                <td>Yaw</td>
+                <td>Yaa</td>
+               </tr>
+               <tr>
+                <td>Friday</td>
+                <td>Kofi</td>
+                <td>Afua</td>
+               </tr>
+               <tr>
+                <td>Saturday</td>
+                <td>Kwame</td>
+                <td>Ama</td>
+               </tr>
+            </table>
+        </div>
+   
+<div class="overlay">
+     <div class="container">
+    <hr>
+       <h2>To get your Akan name enter the Date,Month,Year of Birthday and Gender in the Form below:</h2>
+          <fieldset>
+             <legend><Strong><em>Data Entry Form</em></Strong></legend>
+               <form name="myForm" class="form" onsubmit="validate();">
+               <p>
+                <div class="form-group">
+                  <label for="date"><strong>Date of Birth:</strong>&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <input type="number" class="form-control" id="date" placeholder="Date Format eg 05 for day" name="date" required autofocus>
+                </div>
+               </p>
+                <p>
+                <div class="form-group">
+                  <label for="month"><strong>Month of Birth:</strong></label>
+                  <input type="number" class="form-control" id="month" placeholder="Month Format eg 05 for Jan" name="month" required>
+                </div>
+                </p>
+                <p>
+                  <div class="form-group">
+                  <label for="number"><strong>Date of Birth:</strong>&nbsp;&nbsp;&nbsp;</label>
+                  <input type="number" class="form-control" id="year" placeholder="Year Format 2019 if born in 2019" name="year" required>
+                </div>
+                </p>
+                <div class="form-group">
+                  <label for="month"><Strong><em>Gender</em></Strong></label><br>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="findName();"><strong>Get Your Akan Name</strong></button>
+              </form>
+              <p id="results"> </p>
+            </div>
+        </div>
+      </p>   
+          <p class="card-text">The Akan Names are derieved from gender and the day someone was born. 
+            <br>
+                   <a href=https://en.wikipedia.org/wiki/Akan_names>More study on Akan names.</a>
+          <hr>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; &lt; &lt; &COPY;<a href=https://dmuthui.github.io/coverletter>David Muthui</a>&gt;&gt;&gt;       
+    </body>
+  </html>
