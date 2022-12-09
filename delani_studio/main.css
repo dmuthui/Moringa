@@ -23,3 +23,70 @@ body {
   font-size: large;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+#custom-info-on-portfolio-images{
+  height: 280px;
+  max-width: 280px;
+  padding:1em;
+}
+
+.Hover,.Hover1, .Hover2, .Hover3, .Hover4, .Hover5, .Hover6, .Hover7{
+  height: 310px;
+  width: 366px;
+  position: absolute;
+  background-color: white;
+  opacity: 0;
+  margin-top: -8cm;
+ 
+}
+
+p{
+  text-align: center;
+}
+
+
+h5{
+  text-align: center;
+}
+
+#image{
+  display: flex;
+  justify-content:center ;
+}
+
+.row{
+   
+  margin-left: 1px;
+}
+
+.contactus{
+  background-image: url(assets/backgrounds/c_image.jpg);
+  background-size:cover;
+  display: cover;
+  padding: 10%;
+}
+
+#submit{
+  padding-left: 5%;
+  margin: 5%;
+}
+
+.hide{
+  display: none;
+}
+
+input[type=text]{
+
+  background: transparent;
+  color: white;
+}
+
+textarea[type=text]{
+  background:transparent;
+  color: white;
+  
+}
+
+#socialtools{
+  margin-left: 20%;
+}
