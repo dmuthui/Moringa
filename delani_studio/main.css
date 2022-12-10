@@ -24,11 +24,11 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#custom-info-on-portfolio-images{
+/* #custom-info-on-portfolio-images{
   height: 280px;
   max-width: 280px;
   padding:1em;
-}
+} */
 
 .Hover,.Hover1, .Hover2, .Hover3, .Hover4, .Hover5, .Hover6, .Hover7{
   height: 310px;
