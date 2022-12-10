@@ -6,7 +6,7 @@
 ### Project done by David Muthui Ndung'u- a student at Moringa School Learning DevOps and SRE.
 
 ## Setup Instructions.
-### Considering this is a mock of the website, you don't have to do much. You can click the link: https://dmuthui.github.io/Moringa/delani_studio/index.html access the site. For access to code, it is available in the repo. You can go ahead and clone it.
+### Considering this is a mock of the website, you don't have to do much. You can click the link: https://dmuthui.github.io/Moringa/delani_studio/index.html access the site. For access to code, it is available in the repo https://github.com/dmuthui/Moringa/tree/main/delani_studio. You can go ahead and clone it.
 ### To access the code, access the main.js for the Javascript file, index.html and style.css files from the Project folder.
 
 ## Technologies used
